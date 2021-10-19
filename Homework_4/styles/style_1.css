@@ -3,7 +3,6 @@
     padding: 20px;
     border: 3px solid black;
     border-radius: 10px;
-
 }
 
 .homework-wrapper {
@@ -30,27 +29,40 @@
     display: flex;
     background: white;
     gap: 10px;
+    flex-direction: row-reverse;
 }
 
 .main {
     height: 500px;
     background: green;
-    width: 30%;
+    /*width: 30%;*/
+    /*flex-grow: 3;*/
+    flex-basis: 40%;
+}
+
+
+.main_wrap {
+    height: 500px;
+    background: green;
+    /*width: 30%;*/
+    flex-grow: 2;
 }
 
 .aside_main {
     height: 500px;
     background: blue;
-    width: 100%;
+    /*width: 100%;*/
     /*width: 100px;*/
-
+    /*flex-grow: 2;*/
+    flex-basis: 60%;
 }
 
 .aside_wrapper {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    width: 100%;
+    /*width: 100%;*/
+    flex-grow: 5;
 }
 
 footer {
@@ -75,9 +87,17 @@ footer {
 }
 
 .widget {
-    width: 33%;
+    /*width: 33%;*/
+    /*flex-grow: 1;*/
     background: aquamarine;
     height: 400px;
+    flex: 1 15 500px;
+}
+
+.widget_1 {
+    background: #0c6d4c;
+    height: 400px;
+    flex: 3 20 500px;
 }
 
 .contact {
@@ -108,15 +128,18 @@ footer {
 }
 
 .main_block {
-    width: 60%;
+    /*width: 60%;*/
+    flex-grow: 6;
     background: bisque;
     height: 100%;
 }
 
 .aside_block {
-    width: 40%;
+    /*width: 40%;*/
     background: blueviolet;
     height: 100%;
+    flex-grow: 4;
+    /*flex-shrink: 20;*/
 }
 
 .footer {
