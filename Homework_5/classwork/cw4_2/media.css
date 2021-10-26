@@ -65,7 +65,7 @@
     .wrapper_button {
         height: 45px;
 }
-@media (max-width: 480px) {
+
 
     .wrapper_main {
         max-width: 500px;
@@ -90,4 +90,4 @@
         min-height: 100%;
     }
 }
-}
+

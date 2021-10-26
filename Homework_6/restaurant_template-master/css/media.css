@@ -1,0 +1,57 @@
+@media (max-width: 400px) {
+
+    .links_item {
+        display: none;
+    }
+
+    .burger_wrapper {
+        display: block;
+    }
+
+    .logotype {
+        height: 35px;
+    }
+
+    .header__wrapper {
+        display: flex;
+        padding: 20px 10px 10px 10px;
+    }
+
+    .burger_wrapper img {
+        background: white;
+        border-radius: 100%;
+    }
+
+    .blocks {
+        flex-direction: column;
+    }
+
+    .first_line {
+        margin-left: 0;
+        text-align: center;
+        font-size: 30px
+    }
+
+    .second_line > p {
+        height: unset;
+}
+
+    .welcome_wrapper {
+    height: unset;
+}
+
+    .second_line > p {
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .blocks {
+        width: 100%;
+        align-items: center;
+
+    }
+
+    .blocks-item {
+        box-shadow: 10px 15px 35px black;
+    }
+}
