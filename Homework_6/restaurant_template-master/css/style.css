@@ -58,7 +58,7 @@ header {
   background: url("../image/bg.png") center center/cover no-repeat;
 }
 
-.container {
+.container_own {
   max-width: 1140px;
   margin: 0 auto;
   position: relative;
@@ -269,11 +269,133 @@ margin-top: 15px;
 .title {
 
   font-size: 26px;
-
 }
 
 .decription {
   font-size: 26px;
   text-align: center;
   margin-top: 15px;
+}
+
+
+
+.history-subwrapper {
+  width: 440px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.history_img-wrapper{
+  width: 540px;
+  height: 500px;
+  position: relative;
+}
+
+.history_img-wrapper img {
+  display: block;
+  position: absolute;
+}
+
+.history_wrapper {
+  /*width: 100%;*/
+  /*display: flex;*/
+  /*justify-content: space-between;*/
+}
+.history {
+  margin-top: 370px;
+}
+
+.title_history {
+  font-size: 54px;
+  line-height: 62px;
+}
+
+.history_text{
+  margin-top: 21px;
+  text-align: center;
+
+  font-size: 16px;
+  line-height: 22px;
+  color:#656363;
+
+
+}
+
+.history_numbers {
+  margin-top: 70px;
+  width: 60%;
+}
+
+.wrapper_num {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.history_img-wrapper img:nth-child(3) {
+  left: 40%;
+}
+
+.history_img-wrapper img:nth-child(2) {
+  bottom: 0;
+  right: 0;
+  z-index: 10;
+}
+
+.history_img-wrapper img:nth-child(1) {
+  top: 25px;
+  z-index: 10;
+  left: 0;
+}
+
+.history_img-wrapper img:nth-child(4) {
+  left: 55%;
+  top: 35px;
+  z-index: -100;
+}
+
+.num {
+  font-size: 40px;
+  line-height: 54px;
+  color: #BC9060;
+}
+
+.num_text {
+  font-size: 20px
+}
+
+.order_wrapper {
+  /*display: flex;*/
+  /*justify-content: space-between;*/
+  /*align-items: center;*/
+  /*width: 100%;*/
+  min-height: 357px;
+  justify-content: space-between;
+}
+
+.order_text-wrap {
+  max-width: 605px;
+}
+
+.order_btn {
+  margin-left: 185px;
+}
+
+.order {
+  background: url("../image/group.png") center center/cover no-repeat;
+  min-height: 357px;
+  margin-top: 50px;
+}
+
+.text_order {
+  font-size: 52px;
+  line-height: 60px;
+  color: #D67E34;
+}
+
+.lunch {
+  font-size: 24px;
+  line-height: 33px;
+  color: white;
 }
