@@ -1,0 +1,107 @@
+@media (max-width: 400px) {
+
+.additional {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+    .col-7 img {
+        width: 360px;
+    }
+
+    .header_desc::after {
+        display: none;
+    }
+
+    .width_my {
+        width: auto;
+    }
+
+    .header_desc::before {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .people {
+        flex-direction: column-reverse;
+    }
+
+    .fokus {
+        width: auto;
+        margin-right: 0;
+    }
+
+    .img_wrapper-kran img {
+        width: 100%;
+    }
+    .img_wrapper-kran {
+        width: 100%;
+    }
+
+    .standards_wrap {
+        flex-direction: column;
+    }
+
+    .modern_wrapper {
+        margin-left: 0;
+        width: auto;
+        padding: 20px;
+    }
+
+    .unsere {
+        flex-direction: column-reverse;
+    }
+    .unsere_wrap {
+
+ margin-left: 0;
+}
+
+    .line_wrap {
+        width: 100%;
+        border-radius: unset;
+        align-items: stretch;
+    }
+
+    .small_line-wrap {
+        width: 100%;
+        border-radius: unset;
+    }
+
+    .unsere_title {
+        text-align: center;
+    }
+
+    .unsere_wrap {
+        padding: 10px;
+    }
+
+    .haup_wrapper {
+        grid-template-columns: repeat(auto-fit, minmax(365px, 1fr));
+    }
+
+    .haup_item {
+        margin-left: 0;
+    }
+
+    .left_button, .right_button {display: none}
+    .circle_items {
+        margin-left: 0;
+
+    }
+
+    .items_of-fridge {
+        justify-content: center;
+    }
+
+    .avarage_wrapper {
+        padding: 20px;
+    }
+
+    .contact_wrapper {
+        flex-direction: column;
+    }
+    .contact_button {
+        width: 100%;
+    }
+}

@@ -1,0 +1,399 @@
+.cont {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.navbar {
+    min-height: 42px;
+    box-shadow: 2px -8px 15px;
+}
+
+.me-auto {
+ margin-right: 0!important;
+}
+
+.navbar-nav li {
+    margin: 0 14px 0 14px;
+    font-size: 17px;
+}
+
+.navbar-nav li:hover a.nav-link{
+    color: #2E75FF!important;
+    border: 2px solid transparent;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    border: 2px solid #EAEDF5;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    border: 2px solid transparent;
+}
+.col-5 {
+    background: white;
+}
+
+.header_text {
+    font-family: BBC Reith Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 45px;
+    /* or 67% */
+    letter-spacing: -0.4px;
+    color: #1652AC;
+}
+
+.col-7 {
+    background: white;
+}
+
+.header_desc {
+    position: relative;
+    margin-top: 100px;
+}
+
+.header_desc::before, .header_desc::after {
+    content: "";
+    width: 227px;
+    height: 10px;
+    position: absolute;
+    background: gray;
+    display: block;
+}
+
+.header_desc::before {
+    top: -50px;
+}
+
+.header_desc::after {
+    bottom: -50px;
+}
+
+.header_text {
+    margin-top: 100px;
+    letter-spacing: -0.4px;
+}
+
+.trans img {
+    width: 80%;
+}
+.fokus {
+    margin-right: 100px;
+}
+
+.sub_header_text {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 2.42px;
+
+    color: #1652AC;
+}
+
+.sub_header_desc {
+
+    margin-top: 50px;
+}
+
+.people {
+    flex-direction: row-reverse;
+}
+
+.standards_wrap {
+    display: flex;
+    background: linear-gradient(180deg, #163DA2 0%, #003584 100%);
+
+}
+
+.modern_wrapper {
+    width: 496px;
+    margin-left: 187px;
+    margin-top: 150px;
+}
+
+
+.standard_title {
+    font-family: BBC Reith Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 2.42px;
+    color: #FBFDFF;
+}
+
+.standard_descr {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 32px;
+    color: #FBFDFF;
+}
+
+
+.unsere {
+    display: flex;
+    width: 100%;
+}
+
+.unsere_wrap {
+    flex: 2 1 300px;
+    margin-left: 200px;
+    max-width: 560px;
+
+}
+
+.big_line-wrap {
+    flex: 1 1 300px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.unsere {
+    min-height: 500px;
+}
+
+.unsere_title {
+    margin-top: 100px;
+}
+
+.line_wrap {
+    /*border: 1px solid black;*/
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    box-shadow: 5px 5px 15px black;
+    height: 310px;
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.small_line-wrap {
+    border: none;
+    /*border: 1px solid black;*/
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    /*box-shadow: 5px 5px 15px black;*/
+    height: 110px;
+    width: 90%;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(80,69,252,1) 100%);
+}
+
+.unsere_title {
+    font-family: BBC Reith Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 2.42px;
+    text-transform: uppercase;
+
+    color: #1652AC;
+}
+
+.grid_wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(390px, 1fr));
+    margin: 0 auto;
+}
+
+.grid_item {
+    margin: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #FFFFFF;
+    /* Drop Shadow Vorteile Card */
+
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 16px;
+    height: 130px;
+}
+
+.grid_text {
+    text-align: center;
+    max-width: 150px;
+}
+
+.haup_wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(585px, 1fr));
+    margin: 0 auto;
+}
+
+.haup_item {
+    display: flex;
+    justify-content:flex-start;
+    margin-top: 30px;
+    margin-left: 80px;
+}
+
+.cont h2 {
+    text-align: center;
+}
+
+.fridge_wrapper {
+    max-width: 610px;
+    margin: 0 auto;
+}
+
+.items_of-fridge {
+    height: 80px;
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+}
+
+.left_button {
+    width: 126px;
+    height: 78px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 21px rgba(64, 68, 75, 0.14);
+    border-radius: 8px;
+    position: relative;
+}
+
+
+.right_button {
+    width: 126px;
+    height: 78px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 21px rgba(64, 68, 75, 0.14);
+    border-radius: 8px;
+    position: relative;
+    margin-left: 18px;
+}
+
+.right_button img, .left_button img{
+    position: absolute;
+    left: 50%;
+    /*transform: translateX(50%);*/
+    top: 50%;
+    /*transform: translateY(-50%);*/
+
+    transform: translate(-50%, -50%);
+}
+
+.circle_item {
+    height:12px;
+    background: linear-gradient(180deg, #005BE4 0%, rgba(0, 96, 241, 0) 100%), #004FC7;
+    border: 1px solid #BED8FF;
+    width: 12px;
+    border-radius: 100%;
+}
+
+.circle_items {
+    display: flex;
+    width: 70px;
+    justify-content: space-between;
+    margin-left: 50px;
+}
+
+.fridge_wrap-img img {
+    width: 100%;
+}
+
+.besucher_wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+    margin: 0 auto;
+    gap: 10px;
+
+
+}
+
+.besucher_item {
+    background: #004FC7;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    color: white;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.21);
+    border-radius: 12px;
+}
+
+.besucher {
+    margin-top: 100px;
+}
+
+.besucher h2 {
+    margin-bottom: 50px;
+}
+
+.contact_button {
+    width: 306px;
+    height: 69px;
+    /* Elsässer Megabutton Blue */
+
+    background: linear-gradient(180deg, #0C5CD6 0%, rgba(0, 56, 140, 0) 100%), #004FC7;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    box-shadow: 0px 1px 4px rgba(48, 67, 133, 0.5);
+    border-radius: 12px;
+    color:white;
+}
+
+.avarage_wrapper {
+    max-width: 420px;
+}
+
+.contact_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact {
+    margin-top: 155px;
+}
+
+.jetzt {
+
+    font-family: BBC Reith Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 43px;
+    /* or 126% */
+
+    letter-spacing: -0.4px;
+
+    color: #1652AC;
+}
+
+.contact_button {
+    position: relative;
+}
+
+.contact_button img {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+.footer_wrap {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.item_footer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
