@@ -255,7 +255,7 @@ ul li {
     margin-top: 20px;
     display: flex;
     align-items: center;
-
+    justify-content: space-between;
 }
 
 .input_form {
@@ -638,6 +638,10 @@ ul li {
 
 }
 
+.more {
+    display: none;
+}
+
 .name_of-product {
     font-style: normal;
     font-weight: 500;
@@ -669,13 +673,13 @@ ul li {
 }
 
 .news_text {
-    max-height: 140px;
+    min-height: 140px;
     max-width: 280px;
     margin-top: 20px;
 }
 
 .data_button {
-    width: 106px;
+    max-width: 106px;
     height: 22px;
     background: #0C1A2A;
     border-radius: 4px;
@@ -688,7 +692,7 @@ ul li {
 
 .news_grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(auto, 330px));
 }
 
 .news_link {
@@ -828,4 +832,47 @@ footer {
 
 .catalog_wrapper div {
     margin-top: 10px;
+}
+
+
+.media_wrapper-nav {
+    display: flex;
+}
+
+.media_second-nav {
+    display: flex;
+}
+
+.social_links {
+    display: flex;
+    margin-top: 20px;
+}
+
+.social_links img {
+    margin: 0 25px 0 25px;
+}
+
+.social_links img:nth-child(1) {
+    margin-left: 0;
+}
+
+.wrapper_for-price {
+    display: flex;
+}
+
+.mobile_nav {
+    display: none;
+}
+
+
+body {
+    position: relative;
+}
+
+.down_nav-wrapper-add {
+    display: flex;
+}
+
+.down_nav-wrapper-add {
+    align-items: center;
 }
