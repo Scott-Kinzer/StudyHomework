@@ -876,3 +876,9 @@ body {
 .down_nav-wrapper-add {
     align-items: center;
 }
+
+
+
+.splide__slide {
+    width: auto!important;
+}

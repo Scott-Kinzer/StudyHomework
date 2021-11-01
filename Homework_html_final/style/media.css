@@ -82,7 +82,9 @@
 }
 
 @media (max-width: 1025px) {
-
+    .splide__slide {
+        overflow: hidden;
+    }
     .user_text {
         margin-left: 0;
     }
